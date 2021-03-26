@@ -1,0 +1,28 @@
+.figlet {
+  padding: 25px;
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+
+  &_InputWrap {
+    display: flex;
+  }
+
+  &_Input {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  &_Ascii {
+    display: flex;
+    flex-wrap: wrap;
+
+    &Word {
+      margin: 0;
+      margin-right: 30px;
+      color: lightgreen;
+      opacity: 0.75;
+    }
+  }
+}

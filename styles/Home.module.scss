@@ -1,0 +1,12 @@
+.home {
+  &_Inner {
+    position: relative;
+
+    &Figlet {
+      position: absolute;
+      left: -100px;
+      top: 198px;
+      transform: perspective(700px) rotateY(37deg) rotateX(-14deg) rotate(-29deg) scale(0.37);
+    }
+  }
+}
