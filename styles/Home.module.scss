@@ -4,9 +4,16 @@
 
     &Figlet {
       position: absolute;
-      left: -100px;
-      top: 198px;
-      transform: perspective(700px) rotateY(37deg) rotateX(-14deg) rotate(-29deg) scale(0.37);
+      left: -104px;
+      top: 195px;
+      transform: perspective(700px) rotateY(35deg) rotateX(-14deg) rotate(-29deg) scale(0.37);
+    }
+
+    &Figlet2 {
+      position: absolute;
+      left: 374px;
+      top: 104px;
+      transform: perspective(700px) rotateY(22deg) rotateX(-6deg) rotate(-8deg) scale(0.3);
     }
   }
 }

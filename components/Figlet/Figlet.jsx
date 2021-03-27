@@ -17,6 +17,7 @@ const Figlet = (props) => {
     splitText(props.string)
   }, [props.string])
 
+  // Split up text so that the text can wrap in the container
   const splitText = (text) => {
     const arr = text.split(' ')
     let newArr = []
@@ -32,7 +33,6 @@ const Figlet = (props) => {
     let asciiText
 
     figlet.parseFont('Poison', poison)
- 
     figlet.text(text, {
         font: 'Poison',
     }, (err, data) => {
