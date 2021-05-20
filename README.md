@@ -10,3 +10,4 @@
 https://www.npmjs.com/package/figlet
 
 <img src='./figlet_preview.png' />
+<a href='https://admiring-swirles-95f73f.netlify.app/'>Check it out in action</a>
